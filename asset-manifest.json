@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/kimFood/static/css/main.88e8e9ca.css",
+    "main.js": "/kimFood/static/js/main.b013212d.js",
+    "static/media/kasmithphoto.jpg": "/kimFood/static/media/kasmithphoto.07c4dc24489312e1ae7f.jpg",
+    "static/media/bootstrap-icons.woff?": "/kimFood/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/kimFood/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/kimFood/index.html",
+    "main.88e8e9ca.css.map": "/kimFood/static/css/main.88e8e9ca.css.map",
+    "main.b013212d.js.map": "/kimFood/static/js/main.b013212d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88e8e9ca.css",
+    "static/js/main.b013212d.js"
+  ]
+}
