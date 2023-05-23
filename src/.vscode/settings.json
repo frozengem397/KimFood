@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8cd5a4ad-0292-4fd9-b8b1-6a3269fea78c/resourceGroups/KimLocalFood_group/providers/Microsoft.Web/sites/KimLocalFood",
+    "appService.deploySubpath": "."
+}
