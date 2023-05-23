@@ -2,7 +2,7 @@
   "name": "typescript-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://frozengem397.github.io/kimFood",
+  "homepage": "https://frozengem397.github.io/KimFood",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@stripe/react-stripe-js": "^1.16.5",
