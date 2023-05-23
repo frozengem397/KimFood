@@ -5,7 +5,7 @@ const getStatusColor = (status: any) =>{
     ? "danger"
     : status === "Completed"
     ? "success"
-    : status === "Being_Cooked"
+    : status === "Being Cooked"
     ? "info"
     : status === "Ready" && "warning";
 

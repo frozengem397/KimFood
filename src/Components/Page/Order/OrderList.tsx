@@ -41,7 +41,7 @@ function OrderList({isLoading,orderData}:OrderListProps) {
                             </div>
                             <div className = "col-1">
                                 <button className = "btn btn-success" onClick={()=>{
-                                    navigate("/order/orderDetails/"+orderItem.orderHeaderId)
+                                    navigate("/KimFood/order/orderDetails/"+orderItem.orderHeaderId)
                                 }}>Details</button>
                             </div>
                         </div>

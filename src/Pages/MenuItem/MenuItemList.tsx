@@ -30,7 +30,7 @@ function MenuItemList() {
     {!isLoading && (<div className = "table p-5">
     <div className = "d-flex align-items-center justify-content-between">
         <h1 className = "text-success">MenuItem List</h1>
-        <button className = "btn btn-success" onClick = {()=>navigate("/menuitem/menuitemupsert")}>Add New</button>
+        <button className = "btn btn-success" onClick = {()=>navigate("/KimFood/menuitem/menuitemupsert")}>Add New</button>
     </div>
     <div className = "p-2">
         <div className = "row border">
@@ -57,7 +57,7 @@ function MenuItemList() {
             <div className='col-1'>{menuItem.price}</div>
             <div className='col-2'>{menuItem.specialTag}</div>
             <div className='col-2'>
-                <button className = "btn btn-success" onClick = {()=>navigate("/menuitem/menuitemupsert/"+menuItem.id)}>
+                <button className = "btn btn-success" onClick = {()=>navigate("/KimFood/menuitem/menuitemupsert/"+menuItem.id)}>
                     <i className = "bi bi-pencil-fill" ></i>
                 </button>
                 <button className ="btn btn-danger mx-2" onClick = {() =>{handleDelete(menuItem.id)}}>

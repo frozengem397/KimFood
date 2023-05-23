@@ -49,7 +49,7 @@ export default function CartPickUpDetails() {
         setLoading(true);
         const {data}:apiResponse = await initiatePayment(userData.id);
         // const orderSummary = {grandTotal,totalItems};
-        navigate("/payment",{state:{apiResult:data?.result,userInput}})
+        navigate("/KimFood/payment",{state:{apiResult:data?.result,userInput}})
     };
   return (
     <div className = "border pb-5 pt-3">

@@ -29,7 +29,7 @@ function MenuItemDetails() {
 
     const handleAddToCart = async (menuItemId:number) => {
         if(!userData.id) {
-            navigate("/login");
+            navigate("/KimFood/login");
             return;
         }
         setIsAddingToCart(true);

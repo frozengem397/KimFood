@@ -48,21 +48,22 @@ function App() {
       <div className = "pb-5">
         <Routes>
           <Route path="/" element = {<Home />}></Route>
-          <Route path="/menuItemDetails/:menuItemId" element = {<MenuItemDetails />}></Route>
-          <Route path="/shoppingCart" element = {<ShoppingCart />}></Route>
-          <Route path="/register" element = {<Register />}></Route>
-          <Route path ="/login" element = {<Login />}></Route>
-          <Route path="/menuItem/menuitemlist" element = {<MenuItemList />}></Route>
-          <Route path="/menuItem/menuItemUpsert/:id" element = {<MenuItemUpsert />}></Route>
-          <Route path="/menuItem/menuItemUpsert" element = {<MenuItemUpsert />}></Route>
-          <Route path ="/authentication" element = {<AuthenticationTest/>}></Route>
-          <Route path ="/authorization" element = {<AuthenticationTestAdmin/>}></Route>
-          <Route path ="/accessDenied" element = {<AccessDenied/>}></Route>
-          <Route path = "/payment" element = {<Payment/>}></Route>
-          <Route path = "/order/orderconfirmed/:id" element = {<OrderConfirmed />}></Route>
-          <Route path ="/order/myOrders" element={<MyOrder />}></Route>
-          <Route path ="/order/orderDetails/:id" element ={<OrderDetails />}></Route>
-          <Route path = "/order/allOrders" element ={<AllOrders />}></Route>
+          <Route path="/KimFood" element = {<Home />}></Route>
+          <Route path="/KimFood/menuItemDetails/:menuItemId" element = {<MenuItemDetails />}></Route>
+          <Route path="/KimFood/shoppingCart" element = {<ShoppingCart />}></Route>
+          <Route path="/KimFood/register" element = {<Register />}></Route>
+          <Route path ="/KimFood/login" element = {<Login />}></Route>
+          <Route path="/KimFood/menuItem/menuitemlist" element = {<MenuItemList />}></Route>
+          <Route path="/KimFood/menuItem/menuItemUpsert/:id" element = {<MenuItemUpsert />}></Route>
+          <Route path="/KimFood/menuItem/menuItemUpsert" element = {<MenuItemUpsert />}></Route>
+          <Route path ="/KimFood/authentication" element = {<AuthenticationTest/>}></Route>
+          <Route path ="/KimFood/authorization" element = {<AuthenticationTestAdmin/>}></Route>
+          <Route path ="/KimFood/accessDenied" element = {<AccessDenied/>}></Route>
+          <Route path = "/KimFood/payment" element = {<Payment/>}></Route>
+          <Route path = "/KimFood/order/orderconfirmed/:id" element = {<OrderConfirmed />}></Route>
+          <Route path ="/KimFood/order/myOrders" element={<MyOrder />}></Route>
+          <Route path ="/KimFood/order/orderDetails/:id" element ={<OrderDetails />}></Route>
+          <Route path = "/KimFood/order/allOrders" element ={<AllOrders />}></Route>
           
 
           <Route path="*" element = {<NotFound />}></Route>

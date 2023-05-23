@@ -21,7 +21,7 @@ function Header() {
   const handleLogout =()=>{
     localStorage.removeItem("token");
     dispatch(setLoggedInUser({...emptyUser}));
-    navigate("/")
+    navigate("/KimFood")
 
   }
   return (
@@ -34,11 +34,11 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto mb-2 mb-lg-0 w-100">
           <li className="nav-item">
-            <NavLink className="nav-link" aria-current="page" to = "/">Home</NavLink>
+            <NavLink className="nav-link" aria-current="page" to = "/KimFood">Home</NavLink>
           </li>
 
           <li className="nav-item">
-            <NavLink className="nav-link" aria-current="page" to = "/shoppingCart">
+            <NavLink className="nav-link" aria-current="page" to = "/KimFood/shoppingCart">
               <i className="bi bi-cart"></i>{" "}
               {userData.id && `(${shoppingCartFromStore.length})`}        
             </NavLink>
@@ -48,14 +48,14 @@ function Header() {
               Admin Panel
             </a>
             <ul className="dropdown-menu">
-              <li style ={{cursor:"pointer"}}className="dropdown-item" onClick ={() => navigate("menuItem/menuitemlist")}>Add a new one</li>
-              <li><a className="dropdown-item" onClick={()=>navigate("order/myorders")}>My orders</a></li>
-              <li><a className="dropdown-item" onClick={()=>navigate("order/allOrders")}>All orders</a></li>
+              <li style ={{cursor:"pointer"}}className="dropdown-item" onClick ={() => navigate("/KimFood/menuItem/menuitemlist")}>Add a new one</li>
+              <li><a className="dropdown-item" onClick={()=>navigate("/KimFood/order/myorders")}>My orders</a></li>
+              <li><a className="dropdown-item" onClick={()=>navigate("/KimFood/order/allOrders")}>All orders</a></li>
           
               
             </ul>
           </li>):(<li className = "nav-item">
-            <NavLink className = "nav-link" aria-current = "page" to="/order/myOrders">
+            <NavLink className = "nav-link" aria-current = "page" to="/KimFood/order/myOrders">
               My Orders
             </NavLink>
           </li>)}
@@ -69,11 +69,11 @@ function Header() {
                 <button className="btn btn-success btn-outlined rounded-pill text-white mx-2" style={{ border: "none", height: "40px", width: "100px", }} onClick={handleLogout}>Logout</button>
               </li></>)}
             {!userData.id && (<><li className='nav-item text-white'>
-                <NavLink className="nav-link" to="/register">
+                <NavLink className="nav-link" to="/KimFood/register">
                   Register
                 </NavLink>
               </li><li className='nav-item text-white'>
-                  <NavLink className="btn btn-success btn-outlined rounded-pill text-white mx-2" style={{ border: "none", height: "40px", width: "100px", }} to="/login">
+                  <NavLink className="btn btn-success btn-outlined rounded-pill text-white mx-2" style={{ border: "none", height: "40px", width: "100px", }} to="/KimFood/login">
                     Login
                   </NavLink>
                 </li></>)}

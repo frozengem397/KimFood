@@ -31,7 +31,7 @@ function Register() {
         });
         if(response.data) {
             toastNotify("Successfully Register")
-            navigate("/login");
+            navigate("/KimFood/login");
 
         } else if (response.error) {
             toastNotify(response.error.data.errorMessages[0],"error")

@@ -70,10 +70,10 @@ function PaymentForm({data,userInput}:OrderSummaryProps) {
       });
       if(response){
         if(response.data?.result.status ==="Confirmed"){
-          navigate(`/order/orderconfirmed/${response.data.result.orderHeaderId}`);
+          navigate(`/KimFood/order/orderconfirmed/${response.data.result.orderHeaderId}`);
         }
         else {
-          navigate("/failed");
+          navigate("/KimFood/failed");
         }
       }
       

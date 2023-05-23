@@ -105,7 +105,7 @@ function MenuItemUpsert() {
         
         if(response) {
             setLoading(false);
-            navigate("/menuItem/menuitemlist")
+            navigate("/KimFood/menuItem/menuitemlist")
         }
         setLoading(false);
     }
