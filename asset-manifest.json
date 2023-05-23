@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/KimFood/static/css/main.9cb29d95.css",
-    "main.js": "/KimFood/static/js/main.bbfb65e9.js",
+    "main.js": "/KimFood/static/js/main.e9468252.js",
     "static/media/kasmithphoto.jpg": "/KimFood/static/media/kasmithphoto.07c4dc24489312e1ae7f.jpg",
     "static/media/bootstrap-icons.woff?": "/KimFood/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/KimFood/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/KimFood/index.html",
     "main.9cb29d95.css.map": "/KimFood/static/css/main.9cb29d95.css.map",
-    "main.bbfb65e9.js.map": "/KimFood/static/js/main.bbfb65e9.js.map"
+    "main.e9468252.js.map": "/KimFood/static/js/main.e9468252.js.map"
   },
   "entrypoints": [
     "static/css/main.9cb29d95.css",
-    "static/js/main.bbfb65e9.js"
+    "static/js/main.e9468252.js"
   ]
 }
