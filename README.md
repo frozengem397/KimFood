@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# KimFood
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+KimFood is a web application for sharing and discovering food menu. Users can create an account, upload their favorite recipes, and explore menus shared by others. This repository contains the source code for the KimFood application.
 
-## Available Scripts
+## Web Link
+### Web: https://frozengem397.github.io/KimFood/
+### API: https://kimshopapi.azurewebsites.net/index.html
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User registration and authentication: Users can create an account, log in, and manage their profile. The application supports two roles: admin and normal users.
+- Admin functionality:
+  - View all orders: Admin users can see all the orders placed by users.
+  - Add menu items: Admin users can add new menu items to the system.
+  - Payment processing: All users can pay for the items in their cart using the supported payment methods.
+  - Change the status of orders: Admin users can change the status of each order, Confirmed, Being Cooked, Ready, Completed
+- Normal user functionality:
+  - Add items to cart: Normal users can add menu items to their cart for ordering.
+  - Cart management: Normal users can view and manage the items in their cart.
+  - Payment processing: All users can pay for the items in their cart using the supported payment methods.
+- Search functionality: Users can search for specific menu items or keywords to find relevant items.
+- Category feature: Menu items are categorized into different categories, allowing users to browse and filter items based on categories.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Front-end (Deploy to Github page):
+  - HTML and CSS ![HTML5](https://img.icons8.com/color/24/000000/html-5.png) ![CSS3](https://img.icons8.com/color/24/000000/css3.png)
+  - TypeScript![TypeScript](https://img.icons8.com/color/24/000000/typescript.png)
+  - React.js ![React.js](https://img.icons8.com/plasticine/24/000000/react.png)
+  - Redux ![Redux](https://img.icons8.com/color/24/000000/redux.png)
+  - Bootstrap ![Bootstrap](https://img.icons8.com/color/24/000000/bootstrap.png)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Back-end (Deploy to Azure):
+  - ASP.NET (C#) ![ASP.NET](https://img.icons8.com/color/24/000000/asp.png)
+  - Microsoft SQL Server (Upload to Azure SQL Database) ![SQL Server](https://img.icons8.com/color/24/000000/microsoft-sql-server.png)
+  - JWT (JSON Web Tokens) ![JWT](https://img.icons8.com/color/24/000000/json-web-token.png)
+## Future developement
+- Currently the application only support one shop, in the future, I will implement the feature that allows multiple shop to register as admin and their customer will be able to send order to the specific shop. And the shop admin can only see the order to their shop.
+- Allow the email or message notification when the status is changed.
+- Optimize some pagination
+## Contact
+If you have any questions, issues, or suggestions, please feel free to create an issue in this repository or contact the project maintainer at your-email.
