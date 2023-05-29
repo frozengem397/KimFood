@@ -4,7 +4,7 @@ KimFood is a web application for sharing and discovering food menu. Users can cr
 
 ## Web Link
 ### Web: https://frozengem397.github.io/KimFood/
-### API: https://kimshopapi.azurewebsites.net/index.html
+### API: https://kimshopapi.azurewebsites.net/index.html (https://github.com/frozengem397/Food_Menu)
 
 ## Features
 
